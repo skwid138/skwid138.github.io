@@ -1,3 +1,38 @@
-p{
-  color: red;
+/*  */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  font-family: 'Acme', sans-serif;
+  color: #000;
+  text-shadow: #aaa;
+}
+
+/* trying to fix the github and linkedin photo size issue*/
+#social{
+  max-width: auto;
+  height: 20px;
+}
+
+/* trying to fix font color on index.html */
+#index{
+  font-family: 'Acme', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.jumbotron {
+margin-bottom: 0px;
+background-image: url("rainier2.JPG");
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+text-shadow: black 0.3em 0.3em 0.3em;
+min-height: 100%;
 }
