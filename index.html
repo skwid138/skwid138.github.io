@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Adding Josefin and Acme fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Acme|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Josefin+Sans:300,400,700" rel="stylesheet">
     <!-- playing with Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
@@ -13,24 +13,53 @@
   </head>
   <body>
     <div class="jumbotron" style="background-image">
-      <h1 id="index">Hunter Rancourt
+      <h1 id="index">
+        Hunter Rancourt
       </h1>
+      <div class="container">
+        <div class="row">
+          <div class="index-padding">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+              <div class="index-btn">
+                 <a href="resume.html" class="btn btn-outline-primary" role="button">Resume</a>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="index-btn">
+                <a href="contact.html" class="btn btn-outline-primary" role="button">Contact</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="container">
       <div class="row">
-        <p class="col-sm-4">&copy; 2017 Hunter Rancourt</p>
-        <ul class="col-sm-8">
-          <li class="col-sm-4">
-            <a href="https://github.com/skwid138">
-              <img id="social" src="github.png">
-            </a>
-          </li>
-          <li class="col-sm-4">
-            <a href="https://www.linkedin.com/in/hunter-rancourt-57791632/">
-              <img id="social" src="linkedin.png">
-            </a>
-          </li>
-        </ul>
+        <p class="col-sm-4">
+          &copy; 2017 Hunter Rancourt
+        </p>
+          <div class="no-bullets">
+            <ul class="col-sm-8">
+              <div class="no-bullets">
+                <li class="col-sm-4">
+                  <a href="https://github.com/skwid138">
+                    <img id="social" src="github.png">
+                  </a>
+                </li>
+              </div>
+              <div class="no-bullets">
+                <li class="col-sm-4">
+                  <a href="https://www.linkedin.com/in/hunter-rancourt-57791632/">
+                    <img id="social" src="linkedin.png">
+                  </a>
+                </li>
+              </div>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
